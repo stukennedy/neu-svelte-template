@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "run-s dev:svelte dev:neu",
+    "start": "run-p dev:svelte dev:neu",
     "build": "run-s build:svelte build:neu",
     "dev:neu": "neu run --frontend-lib-dev",
-    "dev:svelte": "vite&",
+    "dev:svelte": "vite",
     "build:neu": "neu build",
     "build:svelte": "vite build",
     "preview:svelte": "vite preview"

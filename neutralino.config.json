@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 0,
-  "documentRoot": "/dist",
+  "documentRoot": "/",
   "url": "/",
   "tokenSecurity": "one-time",
   "enableServer": true,
