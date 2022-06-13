@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 0,
-  "documentRoot": "/",
+  "documentRoot": "/dist",
   "url": "/",
   "tokenSecurity": "one-time",
   "enableServer": true,
@@ -37,7 +37,7 @@
   },
   "cli": {
     "binaryName": "conduct-neu-svelte",
-    "resourcesPath": "/public/",
+    "resourcesPath": "/dist",
     "extensionsPath": "/extensions/",
     "clientLibrary": "/public/js/neutralino.js",
     "binaryVersion": "4.4.0",
